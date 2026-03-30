@@ -1,0 +1,27 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Data and Logs
+data/
+lightning_logs/
+outputs/
+*.log
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# PyTorch/Lightning specific
+*.ckpt
+*.pt
+*.pth
